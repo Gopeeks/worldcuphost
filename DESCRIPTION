@@ -1,0 +1,17 @@
+Package: worldcuphost
+Title: Measure Home Advantage for FIFA World Cup Host Nations
+Version: 0.0.0.9000
+Authors@R: 
+    person("Gopika", "Nair", , "gopikanair2026@u.northwestern.edu", role = c("aut", "cre"))
+Description: Tools for measuring whether countries perform better when they
+    host the FIFA World Cup. Includes a dataset of every men's World Cup
+    match and functions that find the years a country hosted and compare
+    its results as host versus non-host, such as win percentage and goals
+    per game.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Config/roxygen2/version: 8.1.1

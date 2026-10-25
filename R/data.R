@@ -1,0 +1,22 @@
+#' FIFA World Cup match results
+#'
+#' Results of every men's FIFA World Cup match, taken from a larger dataset
+#' of international football results. Each row is one match. The country
+#' column shows where the match was played, which is used to identify
+#' host nations.
+#'
+#' @format A data frame with 1,068 rows and 9 variables:
+#' \describe{
+#'   \item{date}{Date the match was played.}
+#'   \item{home_team}{Name of the team listed as the home team.}
+#'   \item{away_team}{Name of the team listed as the away team.}
+#'   \item{home_score}{Goals scored by the home team, including extra time but not penalty shootouts.}
+#'   \item{away_score}{Goals scored by the away team, including extra time but not penalty shootouts.}
+#'   \item{city}{City where the match was played.}
+#'   \item{country}{Country where the match was played.}
+#'   \item{neutral}{TRUE if the match was played at a neutral venue, FALSE if the home team was playing in its own country.}
+#'   \item{year}{Year of the tournament.}
+#' }
+#' @source Jürisoo, Mart. "International Football Results from 1872 to 2026."
+#'   Kaggle. \url{https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017}
+"world_cup_matches"
