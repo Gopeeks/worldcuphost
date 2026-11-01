@@ -11,6 +11,7 @@
 #'
 #' @return An integer vector of years, sorted from earliest to latest.
 #'   Returns an empty vector if the country never hosted.
+#' @seealso [host_performance()] to compare a team's results as host versus not host.
 #' @export
 #'
 #' @examples
@@ -35,6 +36,7 @@ get_host_years <- function(country, data = worldcuphost::world_cup_matches) {
 #' @return A data frame with one row for hosting years and one for all
 #'   other years, giving matches played, win percentage, and goals per game.
 #'   Matches decided by penalty shootouts count as draws.
+#' @seealso [get_host_years()] to see which years a country hosted.
 #' @export
 #'
 #' @examples

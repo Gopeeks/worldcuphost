@@ -25,3 +25,6 @@ tournament and in all other years.
 \examples{
 host_performance("Brazil")
 }
+\seealso{
+\code{\link[=get_host_years]{get_host_years()}} to see which years a country hosted.
+}

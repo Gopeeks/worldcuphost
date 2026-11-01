@@ -25,3 +25,6 @@ South Korea, are counted for each host.
 \examples{
 get_host_years("Brazil")
 }
+\seealso{
+\code{\link[=host_performance]{host_performance()}} to compare a team's results as host versus not host.
+}
