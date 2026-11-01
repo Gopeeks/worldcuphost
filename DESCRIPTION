@@ -1,13 +1,13 @@
 Package: worldcuphost
-Title: Measure Home Advantage for FIFA World Cup Host Nations
+Title: Measure Home Country Advantage in the FIFA World Cup
 Version: 0.0.0.9000
-Authors@R: 
-    person("Gopika", "Nair", , "gopikanair2026@u.northwestern.edu", role = c("aut", "cre"))
-Description: Tools for measuring whether countries perform better when they
-    host the FIFA World Cup. Includes a dataset of every men's World Cup
-    match and functions that find the years a country hosted and compare
-    its results as host versus non-host, such as win percentage and goals
-    per game.
+Authors@R:
+    person("Gopika", "Nair", email = "gopikanair2026@u.northwestern.edu",
+           role = c("aut", "cre"))
+Description: Tools for measuring whether national teams perform better
+    when their country hosts the FIFA World Cup. Includes a dataset of
+    every men's World Cup match and functions to find a country's hosting
+    years and compare its results as host versus not host.
 License: MIT + file LICENSE
 URL: https://github.com/Gopeeks/worldcuphost
 BugReports: https://github.com/Gopeeks/worldcuphost/issues
